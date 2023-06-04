@@ -46,7 +46,7 @@ horca = [
     You loose!!
     """,
 ]
-with open("/home/rafael/python/projects/hangman/allWords.txt", "r") as archivo:
+with open("/path/to/allWords.txt", "r") as archivo:
     todos_los_caracteres = archivo.read()
     todas_las_palabras = list(map(str, todos_los_caracteres.split()))
     palabra_clave = random.choice(todas_las_palabras).lower()
