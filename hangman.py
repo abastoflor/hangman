@@ -43,7 +43,6 @@ horca = [
     /|\   []
     / \   []
         ======
-    You loose!!
     """,
 ]
 with open("/path/to/allWords.txt", "r") as archivo:
@@ -125,7 +124,7 @@ if __name__ == "__main__":
         print(
             """
           &&&&&&&&&&&&&&&
-          &  You Win!!! &
+          &  Ganaste !!! &
           &&&&&&&&&&&&&&&
         """
         )
